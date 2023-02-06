@@ -6,7 +6,7 @@
     .claculator-container{
         height: 500px;
         width: 350px;
-        background-color: #e6e600;
+        background-color: #3A4655;
         margin-left: auto;
         margin-right: auto;
         border-radius: 10px;
@@ -33,7 +33,7 @@
 #calc-operation {
     font-size: 1.3rem;
     text-align: right;
-    color: #cccc0c;
+    color: #727B86;
     padding-bottom: .5rem;
 }
 #calc-typed {
@@ -48,12 +48,12 @@
 .calc-button-row button {
     display: table-cell;
     width: 25%;
-    background:   #cccc0c;
+    background: #425062;
     color: #fff;
     height: 65px;
     font-size: 1.3rem;
     border: none;
-    border-color: #cccc0c;
+    border-color:#3C4857;
     border-width: 1px 1px 0px 0;
     border-style: solid;
 }
@@ -61,9 +61,9 @@
     color: yellow;
 }
 .calc-button-row button.opt {
-    color: #7556ff;
+    color: #ffbc56;
 }
-
+/*The border has been managed in every fourth button so that the design will not distract.*/
 .calc-button-row button:nth-child(4n){
     border-right: none;
 }
@@ -72,16 +72,15 @@
     top: 1px;
 }
 .calc-button-row button:hover {
-    background: #79794d;
+    background: #3e4b5c;
 }
     </style>
 
 <body>
     <div class="claculator-container">
-    <p class="brand-name">KOHARE</p>
+    <p class="brand-name">RTC</p>
     <input type="text" class="claculator-screen"/>
-
-
+ 
     <!-- Calculator Buttons -->
 <div class="calc-button-row">
     <button class="ac">AC</button>
@@ -93,17 +92,14 @@
     <button>8</button>
     <button>9</button>
     <button class="opt">&#215;</button>
-   
     <button>4</button>
     <button>5</button>
     <button>6</button>
     <button class="opt">&#8722;</button>
-    
     <button>1</button>
     <button>2</button>
     <button>3</button>
     <button class="opt">&#43;</button>
-   
     <button>0</button>
     <button>.</button>
     <button class="ac">=</button>
